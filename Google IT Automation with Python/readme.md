@@ -1,0 +1,2 @@
+- this is where all my Coursera projects exist
+- 6 month certificate program I've taken from September 2020 to March 2021
