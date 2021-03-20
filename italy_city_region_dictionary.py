@@ -50,7 +50,7 @@ print ("\n")
 for region, abbrev in regions.items():
     print ("%s region is abbreviated %s and has city %s" % (region, abbrev, cities[abbrev]))
     
-# safely get an abbreviation by state that might not be there
+# safely get an abbreviation by region that might not be there
 print ("\n")
 region = regions.get('Veneto', None)
 
