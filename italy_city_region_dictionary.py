@@ -31,7 +31,7 @@ print ("Lombardia's abbreviation is: ", regions ['Lombardia'])
 # do it by using the region then cities dict
 print ("\n")
 print ("Toscana has: ", cities[regions['Toscana']])
-print ("Florida has: ", cities[regions['Lombardia']])
+print ("Lombardia has: ", cities[regions['Lombardia']])
 
 
 # print every region abbreviation
