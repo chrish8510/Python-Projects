@@ -1,5 +1,5 @@
 from sys import exit
-
+# based on different rooms, you will either die or go to next room and loops over.
 def tea_room():
     print("What kind of tea would you like?")
     
@@ -14,7 +14,7 @@ def tea_room():
         exit(0)
     else:
         dead("No healing tea. You are dead.")
-        
+# rooms start out with prints. then you move on to choices by while/if/else.
 def snack_room():
     print("There are snacks on the table.")
     print("The snacks are far away from you to reach.")
@@ -54,7 +54,8 @@ def dining_room():
 def dead(why):
     print(why, "See you in next life!")
     exit(0)
-    
+# You start from here. Then you chose which directions to go.
+# based on above, you get to go different rooms.
 def start():
     print("You are in a space.")
     print("You can either go straight or turn back.")
